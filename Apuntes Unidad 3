@@ -1,0 +1,71 @@
+# 🧼 Data Cleaning (Limpieza de datos)
+
+# Etapas del análisis de datos:
+
+1) Recolección
+* Obtención de los datos desde diferentes fuentes (encuestas, sensores, bases de datos, etc.).
+
+2) Almacenamiento
+* Guardado de los datos en un formato y estructura adecuados para su uso posterior (archivos, bases de datos, etc.).
+
+3) Limpieza y preprocesamiento
+* Corrección de errores, eliminación de duplicados, tratamiento de valores faltantes o atípicos y transformación de datos para su análisis.
+
+4) Análisis
+* Aplicación de técnicas estadísticas para extraer información relevante.
+
+5) Visualización y/o modelado
+* Representación gráfica de los resultados o construcción de modelos que permitan interpretar, predecir o tomar decisiones.
+
+
+
+# 🔍 ¿Por qué es importante limpiar los datos?
+
+* Para evitar errores en el análisis.
+Problemas comunes:
+
+* Duplicados → Filas repetidas en el dataset.
+
+* Valores perdidos (missing) DATOS FALTANTES → puede ser:
+
+    * Completamente aleatoria → se puede eliminar df.dropna()
+
+    * Aleatoria o no aleatoria → requiere imputaciones, modelos, ponderaciones, etc.
+
+* Valores atípicos (outliers) Datos muy distintos al resto, pero válidos.
+    Pueden o no excluirse, según el objetivo del análisis.
+
+
+# 🔄 Transformación de datos
+
+🎯 Objetivos comunes de las transformaciones:
+* Hacer comparables las magnitudes.
+* Modificar la escala de medición.
+* Satisfacer alguna propiedad estadística.
+
+
+# Z-score (tipificación):
+    Z = (X - μ) / σ
+    → Centra y estandariza los datos (media 0, desviación 1).
+    ✅ Útil para comparar variables con diferentes escalas.
+
+# Min-Max:
+    Xnorm = (X - min) / (max - min)
+    → Escala los datos al rango [0, 1].
+    ✅ Útil para algoritmos que requieren valores acotados (ej. redes neuronales).
+
+# Logarítmica:
+    X' = log(X + 1)
+    → Reduce el efecto de datos con valores extremos.
+    ✅ Útil cuando hay grandes diferencias entre valores.
+
+
+# 🔁 Tipos de transformación comunes:
+* Cuantitativas → Ordinales:
+Ejemplo: transformar edad en rangos como “joven”, “adulto” o “anciano”.
+
+* Ordinales/Categóricas → Cuantitativas:
+Asignar valores numéricos a variables no numéricas (puede ser arbitrario o mediante algoritmos).
+
+* String → Datetime:
+Convertir texto en formato de fecha para facilitar análisis temporales.

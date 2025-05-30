@@ -1,0 +1,64 @@
+# 📌 ¿Qué es el análisis de datos?
+Proceso de INSPECCIONAR, LIMPIAR y TRANSFORMAR datos para obtener información útil, tomar decisiones y llegar a conclusiones.
+
+
+# El análisis se puede realizar sobre distintos tipos de variables.
+* Cualitativas: 
+    * Categóricas: cualitativas, sin orden (ej: colores, Tipo de mascota, Nacionalidad).
+    * Ordinales: cualitativas con orden, pero sin distancia definida (ej: niveles de satisfacción, Talla de ropa).
+
+* Cuantitativas: 
+    * Cuantitativas discretas: valores numéricos sin valores intermedios (ej: cantidad de hijos, nota de examen).
+    * Cuantitativas continuas: valores numéricos con infinitos intermedios (ej: altura, Temperatura).
+
+//mas ejemplos ya
+
+# Clasificación del análisis según la cantidad de variables a tener en cuenta
+* Univariado: analiza una sola variable (ej: edad promedio del aula).
+* Multivariado: analiza dos o más variables y su relación (ej: regresión edad-peso, segmentación de clientes).
+
+# 📈 Análisis de datos actual:
+* Integra estadística con aprendizaje automático y minería de datos.
+
+# 📌 Data Mini
+ng (Minería de Datos)
+* Qué es:
+    Proceso de EXPLORAR grandes volúmenes de datos para descubrir patrones, relaciones y estructuras ocultas sin tener hipótesis previas.
+
+
+# 📌 Big Data
+* Qué es:
+    Conjunto de datos tan grande y complejo que no puede procesarse con herramientas tradicionales.
+
+* Se define por las 5 “V”:
+    Volumen: gran cantidad de datos.
+
+    Velocidad: necesidad de procesarlos rápidamente.
+
+    Variedad: datos en distintos formatos (texto, imágenes, sensores, etc.).
+
+    Veracidad: asegurar que los datos sean confiables.
+
+    Valor: extraer información útil y relevante.
+
+
+
+
+# 📊Análisis estadístico
+* Parte de una hipótesis previa (ej. “las personas con mayor edad tienen mayor ingreso”).
+* Aplica técnicas confirmatorias para probar esa hipótesis (regresión, test t, etc.).
+* Requiere supuestos sobre los datos (normalidad, independencia, etc.).
+* Las herramientas informáticas son opcionales: podés hacer cálculos a mano si quisieras.
+
+# Minería de datos
+* No parte de una hipótesis. Busca descubrir patrones ocultos sin saber qué esperar.
+* Aplica técnicas exploratorias (clusterización, árboles de decisión, etc.).
+* No requiere supuestos estrictos.
+* Necesita software sí o sí (porque maneja grandes volúmenes de datos).
+
+
+
+# Ley de grandes Numero:
+* Teorema explica que a medida que el tamaño de la muestra aumenta, la media muestral se acerca a la media poblacional.
+  
+

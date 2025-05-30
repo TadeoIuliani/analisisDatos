@@ -1,0 +1,18 @@
+# 📊 ¿Por qué es importante la visualización de datos?
+Es clave tanto para la exploración de los datos (detectar outliers, patrones, errores) como para comunicar resultados.
+
+
+# 📈 Tipos de gráficos y su utilidad
+
+# Tipo de gráfico	                    ¿Para qué se usa?
+
+* Histograma	                        Distribución de una variable continua (frecuencia).
+
+* Gráfico de barras	                    Comparar categorías o grupos.
+
+* Diagrama de dispersión (scatter)	    Relación entre dos variables (bivariado).
+
+* Gráfico de líneas	                    Ver evolución temporal u ordenada. Ej: variable vs tiempo.
+
+* Gráfico de cajas (boxplot)	        Resume distribución, mediana, cuartiles y outliers.
+

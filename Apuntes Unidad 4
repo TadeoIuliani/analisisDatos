@@ -1,0 +1,53 @@
+# 📈 Análisis Estadístico
+
+# 📦 Organización de datos
+Antes de analizar, los datos deben estar ordenados y estructurados para facilitar su interpretación.
+
+# 📊 Análisis de frecuencias
+* En variables cualitativas: conteo por categoría (frecuencia absoluta o porcentual).
+* En variables cuantitativas: si son continuas, usar intervalos.
+
+
+# Medidas Descriptivas Univariadas 
+
+➤ Medidas de tendencia central:
+* Representan los datos con un único valor.
+* Ejemplos: MEDIA, MEDIANA, MODA
+* Librerías: pandas, scipy (media geométrica, media podada)
+
+
+➤ Medidas de posición:
+* Dividen los datos en partes iguales.
+* Ejemplos: CUARTILES, DECILES, PERCENTILES
+
+➤ Medidas de dispersión:
+* Miden la variabilidad o dispersión de los datos.
+* Ejemplos: rango, varianza, desviación estándar
+
+
+# Análisis multivariado
+
+* 📌 Conceptos clave:
+* Registros (n): filas, unidades de observación
+* Variables (p): columnas, atributos a analizar
+
+** A mayor cantidad de variables, mayor complejidad del análisis: ** 
+* Fórmula de parámetros: 2p + (p(p-1))/2
+
+
+# 🔗 Técnicas estadísticas comunes
+➤ Covarianza:
+* Mide cómo varían dos variables juntas
+* No está estandarizada, depende de la escala
+
+➤ Correlación:
+Mide la relación lineal estandarizada (rango -1 a 1)
+
+Tipos:
+* Pearson: valores numéricos
+
+* Spearman: rangos, menos sensible a outliers
+
+* V de Cramer: para variables categóricas
+
+* t de Student o coeficiente eta: para combinar variables categóricas y numéricas

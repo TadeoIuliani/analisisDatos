@@ -1,0 +1,90 @@
+# Pandas en Python
+
+# 🔷 ¿Qué es Pandas?
+
+* Librería de Python para ANALISIS DE DATOS ESTRUCTURADOS (tablas).
+* Trabaja principalmente con estructuras tipo DataFrame y Series.
+* Creada en 2008 por Wes McKinney.
+* Es de código abierto, multiplataforma y tiene sintaxis de alto nivel.
+
+# 📌 Estructuras básicas
+
+# Series
+* Vector unidimensional con índices.
+* Basado en ndarray de NumPy.
+
+# DataFrame
+* Estructura bidimensional: filas y columnas.(se le podria guardar una tabla)
+
+# 🔍 Selección y filtrado
+🔹 Columnas:
+Por nombre:
+df["columna"], df.columna, df[["col1", "col2"]]
+
+Por posición:
+df.iloc[:, 1] (columna 1), df.iloc[:, 1:4] (de la 1 a la 3)
+
+🔹 Filas:
+Por posición:
+df.iloc[2, :] → fila 2 completa
+
+Por condición:
+df.loc[df.damage == 3, ["id", "damage"]]
+df.query("damage > 2")
+
+🔢 Índices
+Permiten acceder fácilmente a los datos.
+
+iloc accede por posición numérica.
+
+loc accede por nombre de fila o columna.
+
+El atributo index se puede consultar o modificar.
+
+📆 Fechas
+Usar to_datetime() para convertir columnas a tipo fecha.
+
+Luego se accede a partes de la fecha con .dt
+(ej: df.fecha.dt.year, df.fecha.dt.month)
+
+✂️ Cadenas de texto
+Usar el accesor .str para trabajar con strings:
+
+lower(), upper(), split(), replace(), slice(), etc.
+
+
+
+
+
+
+
+# 🔷 ¿Qué es NumPy?
+
+* Librería de Python, escrita en C, para el manejo eficiente de arrays/matrices.
+* Muy usada en ciencia de datos, álgebra lineal, estadística, big data, etc.
+* Es de codigo abierto, multiplataforma, tiene sintaxis de alto nivel y altamente optimizada y rapida
+
+
+# 📦 Clase principal: numpy.ndarray
+
+* A diferencia de listas:
+    * Tiene tamaño fijo
+
+    * Todos los elementos son del mismo tipo
+
+    * Permite operaciones matemáticas avanzadas
+
+
+
+# 🧠 Casos de uso de NumPy
+    * Big Data
+
+    * Estadística avanzada
+
+    * Álgebra lineal
+
+    * Procesamiento del lenguaje natural (NLP)
+
+    * Procesamiento de imágenes
+
+    
